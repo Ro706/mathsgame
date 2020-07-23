@@ -1,0 +1,163 @@
+#python 2.7.15
+
+print "Hello, world! "
+
+#python 2.7.15
+
+import random
+
+import time
+
+print ("**********************************")
+
+print ("*********** Maths Game ***********")
+
+print ("**********************************")
+
+print ("WELCOME TO MATHS GAME ")
+
+print ("--- made by Ro706 --- ")
+
+print ("--------------------------------------------------------------------------------------------------------------------------------------")
+
+a=random.randint(1,10)
+
+b=random.randint(1,10)
+
+print("LEVEL 1 ")
+
+print("The value of a: " ,a)
+
+print("The value of b:  ",b)
+
+print("sum of two numbers")
+
+user =int(input())
+
+if user ==(a+b):
+
+  time.sleep(1)
+
+  print("good ,LEVEL UP (***) ")
+
+  time.sleep(1)
+
+  print("your entering into the 2ND level")
+
+  time.sleep(0.9)
+
+if user!=(a+b) :
+
+  time.sleep(1)
+
+  print("try again")
+
+  exit(0)
+
+c=random.randint(1,10)
+
+d=random.randint(1,10)
+
+print ("LEVEL 2")
+
+print("the value of c: ",c)
+
+print("the value of d: ",d)
+
+print("multiple the nunbers ")
+
+user =int(input())
+
+if user ==(c*d) :
+
+  print ("good,LEVEL UP (***)")
+
+if user !=(c*d) :
+
+  print("sorry try again")
+
+  exit(0)
+
+print("LEVEL 3")  
+
+time.sleep(2)
+
+e=random.randint(1,10)
+
+f=random.randint(1,10)
+
+print ("the value of e: ",e)
+
+print ("the value of f: ",f)
+
+time.sleep(0.6)
+
+print ("subtract e - f ")
+
+user=int(input())
+
+if user == (e-f):
+
+  time.sleep(0.9)
+
+  print ("good,LEVEL UP (***) ")
+
+  print ("LEVEL 4")
+
+if user != (e-f):
+
+  print ("try again")
+
+  time.sleep(1)
+
+  exit(0)
+
+g=random.randint(1,5)
+
+h=random.randint(1,5)
+
+print ("the value of g: ",g)
+
+print ("the value of h: ",h)
+
+print ("divided g/h")
+
+user=int(input())
+
+if user == (g/h):
+
+  print ("good,LEVEL UP (***)")
+
+  time.sleep(2)
+
+  print ("LEVEL 5")
+
+if user != (g/h):
+
+  print ("try again ")
+
+  time.sleep(2)
+
+  exit(0)
+
+print ("[(a+b+c)*(d+e+f)*(g+h)]")
+
+user= int(input())
+
+if user == ((a+b+c)*(d+e+f)*(g+h)):
+
+  username=raw_input("username: ")
+
+  print ("win ",username)
+
+  print ("total point:15")
+
+if user != ((a+b+c)*(d+e+f)*(g+h)):
+
+  print ("try again")
+
+  time.sleep(1)
+
+  print ("total point:12")
+
+  exit(0)
